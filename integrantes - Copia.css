@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2fc;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 15px 30px;
+}
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #6a329f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b57edc;
+}
+
+.equipe {
+    text-align: center;
+    padding: 100px;
+    background-color: #f1f5ed;
+}
+
+.equipe h2 {
+    color: #315b3b;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.integrante {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.integrante img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.integrante h3 {
+    color: #4b286d;
+}
+.equipe {
+    text-align: center;
+    padding: 40px;
+    background-color: #f1f5ed;
+}
+
+.equipe h2 {
+    color: #315b3b;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.integrante {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.integrante img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.integrante h3 {
+    color: #4b286d;
+}
+
+.foto-equipe {
+    margin: 40px auto 0;
+    max-width: 700px;
+}
+
+.foto-equipe img {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.foto-equipe h3 {
+    color: #4b286d;
+}
+
+.foto-equipe p {
+    color: #315b3b;
+}
+
+footer {
+    background-color:#6a329f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    font-size: 22px;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 14px;
+}
